@@ -9,14 +9,14 @@
 
 ## 📜 Overview
 
-The city is hosting a **citywide dog show**, and I’ve volunteered to help the organizing committee with contestant registration.
+Puppyland, a fictionary city is hosting a **citywide dog show**, and I’ve volunteered to help the organizing committee with contestant registration.
 
 Every participant must submit:
 
 - 🐕 An image of their dog  
 - 📄 Biographical information
 
-But — some people might try to sneak in **non-dog pets** 🐱🦝! So I built a Python-based image classifier to ensure **only dogs** are accepted.
+But some people might try to sneak in **non-dog pets** 🐱🦝! So I built a Python-based image classifier to ensure **only dogs** are accepted.
 
 
 

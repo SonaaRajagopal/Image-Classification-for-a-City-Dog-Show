@@ -33,11 +33,16 @@ Build an **image classification system** that can:
 
 This project implements and compares the performance of three popular CNN architectures:
 
-| Model     | Description                                |
-|--|--|
-| 🧱 AlexNet | A simple yet influential early CNN         |
-| 🧠 VGG     | Deep network with small filters (VGG16/VGG19) |
-| 🕸️ ResNet  | Residual Networks with skip connections     |
+## 🧪 Results
+
+| Architecture | Accuracy     | Model Size | Speed  |
+|--------------|--------------|------------|--------|
+| AlexNet      | ✅ Moderate  | 🟢 Small   | ⚡ Fast |
+| VGG          | ✅ High      | 🔴 Large   | 🐢 Slow |
+| ResNet       | 🏆 Best      | 🟡 Medium  | ⚡ Fast |
+
+📌 **ResNet** performed best overall in terms of accuracy and generalization.
+
 
 Each model is fine-tuned for the binary task: **dog vs. not-dog**.
 
@@ -53,13 +58,14 @@ Each model is fine-tuned for the binary task: **dog vs. not-dog**.
 
 ## 🛠️ Tech Stack
 
-| Tool      | Description                           |
-|--||
+| Tool        | Description                      |
+|-------------|----------------------------------|
 | ![Python](https://img.shields.io/badge/Python-3.8-blue?logo=python) | Programming language |
 | ![PyTorch](https://img.shields.io/badge/PyTorch-Framework-EE4C2C?logo=pytorch&logoColor=white) | Deep learning framework |
-| ![TorchVision](https://img.shields.io/badge/TorchVision-Image%20Utils-blueviolet) | Model zoo & transforms |
+| ![TorchVision](https://img.shields.io/badge/TorchVision-Image%20Utils-purple) | Model zoo & transforms |
 | ![Matplotlib](https://img.shields.io/badge/Matplotlib-Plotting-yellow) | Accuracy/loss visualization |
 | ![Pandas](https://img.shields.io/badge/Pandas-DataFrame-darkblue) | Data handling & logging |
+
 
 
 
